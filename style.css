@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+
+#search-bar{
+    color: white;
+    position: absolute;
+    left: 43vw;
+    top: 1.7vh;
+}
+
+#input-box{
+    position: absolute;
+    left: 36vw;
+    top: 9vh;
+    height: 28px;
+    width: 370px;
+    padding-left: 5px;
+}
+
+.name-qualifications{
+    height: 7vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.same{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+table{
+    margin-left: 343px;
+}
+
+table tr td{
+    width: 380px;
+    font-size: 20px;
+    padding: 6px;
+}
+
+#name{
+    position: relative;
+    left: 13px;
+}
+
+
